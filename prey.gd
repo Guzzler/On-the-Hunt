@@ -23,4 +23,3 @@ func _physics_process(delta):
 	if (target - position).length() > 5:
         velocity = move_and_slide(velocity)
 		
-		
