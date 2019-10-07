@@ -66,7 +66,7 @@ position = Vector2( -8.40228, -1.97189 )
 scale = Vector2( 0.282617, 0.292804 )
 frames = SubResource( 2 )
 animation = "dead"
-frame = 1
+frame = 6
 playing = true
 
 [node name="Background" parent="." instance=ExtResource( 30 )]

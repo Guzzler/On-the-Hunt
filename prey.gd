@@ -17,7 +17,6 @@ func _input(event):
 		if event.pressed:
 			isClickingObject = false
 			localTarget = get_global_mouse_position()
-			print((localTarget-position).length())
 			if (localTarget-position).length() < 50: 
 				isClickingObject = true
 		if not event.pressed && isClickingObject:
