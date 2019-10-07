@@ -18,8 +18,6 @@ func _input(event):
 		if not event.pressed && isClickingObject:
 			target = get_global_mouse_position()
 
-		print("Mouse Click/Unclick at: ", event.position)
-
 func _physics_process(delta):
 	velocity = (target - position).normalized() * speed
 	if (target - position).length() > 5:
