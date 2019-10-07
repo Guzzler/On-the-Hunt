@@ -17,7 +17,6 @@ _global_script_class_icons={
 
 config/name="On the Hunt"
 run/main_scene="res://Root.tscn"
-config/icon="res://icon.png"
 
 [rendering]
 

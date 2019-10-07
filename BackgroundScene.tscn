@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://BackgroundScript.gd" type="Script" id=1]
+[ext_resource path="res://Images/3811405243_70511d8797_b.jpg" type="Texture" id=2]
+[ext_resource path="res://Images/Rock Pile.png" type="Texture" id=3]
+
+[node name="Root" type="Node"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scroll_ignore_camera_zoom = true
+script = ExtResource( 1 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 1, 1.5 )
+motion_mirroring = Vector2( 0, 590 )
+
+[node name="WildBackground" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2( 512.329, 299.02 )
+scale = Vector2( 0.996195, 0.76918 )
+texture = ExtResource( 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+light_mask = 0
+motion_mirroring = Vector2( 0, 640 )
+
+[node name="Rock" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 199.672, 503.563 )
+scale = Vector2( 0.544193, 0.522127 )
+texture = ExtResource( 3 )
+
+[node name="Rock2" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 886.696, 107.585 )
+scale = Vector2( 0.561696, 0.439944 )
+texture = ExtResource( 3 )
+
+[node name="Rock3" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 763.026, 478.402 )
+scale = Vector2( 0.610396, 0.464295 )
+texture = ExtResource( 3 )
+
+[node name="Rock4" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 345.773, 96.4269 )
+scale = Vector2( 0.54952, 0.50082 )
+texture = ExtResource( 3 )
