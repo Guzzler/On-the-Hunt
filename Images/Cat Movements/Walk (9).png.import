@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/3811405243_70511d8797_b.jpg-c3f091a7b51f8434da51c919d40392c2.stex"
+path="res://.import/Walk (9).png-e9a194399fae1bd34185dee0c382b862.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://3811405243_70511d8797_b.jpg"
-dest_files=[ "res://.import/3811405243_70511d8797_b.jpg-c3f091a7b51f8434da51c919d40392c2.stex" ]
+source_file="res://Images/Cat Movements/Walk (9).png"
+dest_files=[ "res://.import/Walk (9).png-e9a194399fae1bd34185dee0c382b862.stex" ]
 
 [params]
 
