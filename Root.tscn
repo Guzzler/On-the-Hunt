@@ -1,6 +1,7 @@
 [gd_scene load_steps=33 format=2]
 
 [ext_resource path="res://prey.gd" type="Script" id=1]
+
 [ext_resource path="res://Images/Cat Movements/Dead (1).png" type="Texture" id=2]
 [ext_resource path="res://Images/Cat Movements/Dead (2).png" type="Texture" id=3]
 [ext_resource path="res://Images/Cat Movements/Dead (3).png" type="Texture" id=4]
